@@ -1,0 +1,38 @@
+body {
+  
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 72px;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 36px;
+}
+
+#color-zero {
+  background-color: #eaeaea;
+}
+
+#color-one {
+  background-color: #d9f4ff;
+}
+
+#color-two {
+  background-color: #a3e6ff;
+}
+
+#color-three {
+  background-color: #81d4f4;
+
+}
+
+#color-four {
+  background-color: #92b3bf;
+}
+
+#color-five {
+  background-color: #556e77;
+}
