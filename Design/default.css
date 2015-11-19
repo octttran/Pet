@@ -1,0 +1,50 @@
+body {
+
+}
+
+h1 {
+  font-size: 42px;
+  color: #81d4f4;
+}
+
+li {
+  
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 20px;
+  color: #eaeaea;
+}
+
+button {
+  width: 100%;
+  border-radius: 35px;
+}
+
+.background-one {
+  background-color: #556e77;
+}
+
+.img-hover {
+  position: relative;
+}
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0,0,0, 0.7);
+}
+
+#nav-list {
+  margin-top: 35px;
+}
+
+#action-one {
+  width: 100%;
+  border-radius: 35px;
+  margin-top: 25px;
+}
