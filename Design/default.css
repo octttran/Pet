@@ -24,26 +24,29 @@ form {
 }
 
 .pet-name {
-  margin-top: 0px;
+  
 }
 
-.email {
-  margin-top: 70px;
+#input-email {
+  
 }
 
-.mobile {
-  margin-top: 70px;
+#mobile {
+  
 }
 
-.password {
-  margin-top: 70px;
+#password {
+  
 }
 
-.password-two {
-  margin-top: 70px;
+#password-two {
+  
 }
 
-
+#register {
+  width: 40%;
+  border-radius: 25px;
+}
 
 #background-two {
   height: 550px;
@@ -86,9 +89,9 @@ form {
 
 }
 
-
-
-
+#age-box {
+  font-size: 16px;
+}
 
 
 

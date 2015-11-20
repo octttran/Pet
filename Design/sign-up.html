@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans'>
   <link href='https://fonts.googleapis.com/css?family=PT+Sans'>
-
 </head>
 <body>
   <div class="container">
@@ -23,61 +22,64 @@
       </div>
       <form class="form-horizontal">
         <div class="form-group">
-          <label for="inputUsername" class="col-md-3 control-label">Username</label>
-          <div class="col-md-6 col-md-offset-1">
+          <label for="inputUsername" class="col-md-4 control-label">Username</label>
+          <div class="col-md-5">
             <input type="name" class="form-control" id="username" placeholder="">
           </div>
         </div>
         <div class="form-group">
-          <label for="inputPetname" class="col-md-3 control-label">Pet's Name</label>
-          <div class="col-md-6 col-md-offset-1">
+          <label for="inputPetname" class="col-md-4 control-label">Pet's Name</label>
+          <div class="col-md-5">
             <input type="name" class="form-control" id="pet-name">
           </div>
         </div>
         <div class="form-group">
-          <label for="inputEmail" class="col-md-3 control-label">Email</label>
-          <div class="col-md-6 col-md-offset-1">
+          <label for="inputEmail" class="col-md-4 control-label">Email</label>
+          <div class="col-md-5">
             <input type="email" class="form-control" id="input-email" placeholder="">
           </div>
         </div>
         <div class="form-group">
-          <label for="inputEmail" class="col-md-3 control-label">Mobile # (Optional)</label>
-          <div class="col-md-6 col-md-offset-1">
+          <label for="inputEmail" class="col-md-4 control-label">Mobile # (Optional)</label>
+          <div class="col-md-5">
             <input type="email" class="form-control" id="mobile" placeholder="">
           </div>
         </div>
         <div class="form-group">
-          <label for="inputPassword" class="col-md-3 control-label">Password</label>
-          <div class="col-md-6 col-md-offset-1">
+          <label for="inputPassword" class="col-md-4 control-label">Password</label>
+          <div class="col-md-5">
             <input type="password" class="form-control" id="password" placeholder="">
           </div>
         </div>
         <div class="form-group">
-          <label for="inputEmail" class="col-md-3 control-label">Re-enter Password</label>
-          <div class="col-md-6 col-md-offset-1">
+          <label for="inputEmail" class="col-md-4 control-label">Re-enter Password</label>
+          <div class="col-md-5">
             <input type="email" class="form-control" id="password-two" placeholder="">
           </div>
         </div>
         <div class="form-group">
-          <label for="inputlocation" class="col-md-3 control-label">Location</label>
-          <div class="col-md-6 col-md-offset-1">
+          <label for="inputlocation" class="col-md-4 control-label">Location</label>
+          <div class="col-md-5">
             <input type="email" class="form-control" id="location" placeholder="nearest city">
           </div>
         </div>
         <div class="form-group">
-          <label for="inputEmail" class="col-md-3 control-label">Pet's Gender</label>
-          <div class="col-md-offset-1 col-md-6">
-            <input id="male" type="radio" name="gender" value="m">
-            <label for="male">Male</label>
-            <input id="female" type="radio" name="gender" value="f">
-            <label for="female">Female</label>
+          <label for="inputEmail" class="col-md-4 control-label">Pet's Gender</label>
+          <div class="col-md-5">
+            <div class="male">
+              <input id="male" type="radio" name="gender" value="m">
+              <label for="male">Male</label>
+            </div>
+            <div class="female">
+              <input id="female" type="radio" name="gender" value="f">
+              <label for="female">Female</label>
+            </div>
           </div>
         </div>
-
         <div class="form-group">
-          <label for="inputEmail" class="col-md-3 control-label">AGE</label>
-          <div class="col-md-6 col-md-offset-1">
-            <select name="month">
+          <label for="inputage" class="col-md-4 control-label">AGE</label>
+          <div class="col-md-5">
+            <select name="age" id="age-box">
               <option value="one">1</option>
               <option value="one">2</option>
               <option value="one">3</option>
@@ -89,14 +91,12 @@
           </div>
         </div>
         <div class="form-group">
-            <div class="col-md-6 col-md-offset-5">
-            <button type="submit" class="btn btn-primary">Register</button>
-            </div>
+          <div class="col-md-6 col-md-offset-5">
+            <button type="submit" class="btn btn-primary" id="register">Register</button>
           </div>
-        </form>
-
-      </div>
+        </div>
+      </form>
     </div>
-
-  </body>
-  </html>
+  </div>
+</body>
+</html>
