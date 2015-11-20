@@ -15,14 +15,44 @@ li {
   color: #eaeaea;
 }
 
+form {
+  margin-bottom: 25px;
+}
 
 .background-one {
   background-color: #556e77;
 }
 
+.pet-name {
+  margin-top: 0px;
+}
+
+.email {
+  margin-top: 70px;
+}
+
+.mobile {
+  margin-top: 70px;
+}
+
+.password {
+  margin-top: 70px;
+}
+
+.password-two {
+  margin-top: 70px;
+}
+
+
+
 #background-two {
   height: 550px;
   background-color: ;
+}
+
+#sign-background {
+  background-image: url("image/sign-up.png");
+  height: 350px;
 }
 
 .img-hover {
@@ -45,7 +75,7 @@ li {
 }
 
 #action-one {
-  
+  color: white;
 }
 
 #action-two {
