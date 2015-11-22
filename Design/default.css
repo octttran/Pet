@@ -7,8 +7,8 @@ h1 {
   color: #81d4f4;
 }
 
-li {
-  
+ul, li {
+  margin-top: 20px;
   font-size: 18px;
   display: inline-block;
   margin-right: 20px;
@@ -21,10 +21,43 @@ form {
 
 .background-one {
   background-color: #556e77;
+  
+}
+
+.jumbotron {
+  height: 445px;
+}
+
+.img-hover {
+  position: relative;
+  
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0,0,0, 0.7);
+
 }
 
 .pet-name {
   
+}
+
+#action-one-button {
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+#action-two-button {
+  margin-top: 25px;
+
 }
 
 #input-email {
@@ -58,39 +91,30 @@ form {
   height: 350px;
 }
 
-.img-hover {
-  position: relative;
-}
-.caption {
+#main-title {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px 0;
-  font-size: 18px;
-  text-align: center;
-  color: white;
-  background-color: rgba(0,0,0, 0.7);
-}
-
-#nav-list {
-  
-}
-
-#action-one {
-  color: white;
-}
-
-#action-two {
- 
-}
-
-#action-three {
-
+  left: 35px;
 }
 
 #age-box {
   font-size: 16px;
+}
+
+
+#pet-connect {
+  font-size: 28px;
+}
+
+#rocky-jimbo {
+  font-size: 22px;
+}
+
+#testimonial {
+  font-size: 18px;
+}
+
+#carousel {
+  font-size: 24px
 }
 
 
