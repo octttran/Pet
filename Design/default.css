@@ -1,10 +1,11 @@
 body {
+  padding-top: 70px;
+  padding-bottom: 100px;
 
 }
 
 h1 {
-  font-size: 42px;
-  color: #81d4f4;
+
 }
 
 ul, li {
@@ -17,15 +18,17 @@ ul, li {
 
 form {
   margin-bottom: 25px;
+
 }
 
-.background-one {
-  background-color: #556e77;
-  
+i {
+  margin-right: 25px;
 }
+
 
 .jumbotron {
   height: 445px;
+
 }
 
 .img-hover {
@@ -46,12 +49,39 @@ form {
 
 }
 
-.pet-name {
-  
+.navbar-text > a {
+  color: inherit;
+  text-decoration: none;
 }
 
+.navbar-brand {
+
+  position: absolute;
+  float: left;
+  font-size: 36px;
+  margin-top: 15px;
+
+}
+
+
+.thumbnail img:hover {
+  transform: scale(1.1);
+
+}
+
+.thumbnail img {
+  transition: all 0.3s ease 0s;
+  width: 100%;
+
+}
+
+.thumbnail {
+  overflow: hidden;
+}
+
+
 #action-one-button {
-  margin-right: 25px;
+  margin-right: 10px;
   margin-top: 25px;
 }
 
@@ -86,10 +116,6 @@ form {
   background-color: ;
 }
 
-#sign-background {
-  background-image: url("image/sign-up.png");
-  height: 350px;
-}
 
 #main-title {
   position: absolute;
