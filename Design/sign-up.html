@@ -24,24 +24,23 @@
         <a class="navbar-brand" href="#">PetsHangOut</a>
       </div>
       <div class="navbar-collapse collapse">
-        <div class="col-md-10">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li class=""><a href="#">Member</a></li>
-            <li class=""><a href="#">Availability</a></li>
-            <li class=""><a href="#">Gallery</a></li>
-            <li class=""><a href="#">Contact Us</a></li>
-          </ul>
-        </div>
-        <div class="register">
-          <button type="button" class="btn btn-default navbar-right" id="action-two-button" data-toggle="modal" data-target="#action-two">
-            Log-in
-          </button>
-          <a class="btn btn-primary navbar-right" id="action-one-button" href="sign-up.html" role="button">Sign-up</a>
-        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li class=""><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Member<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#action-two" data-toggle="modal">Log-in</a></li>
+              <li><a href="Gallery.html">Gallery</a></li>
+            </ul>
+          </li>
+          <li class=""><a href="#">Availability</a></li>
+          <li class=""><a href="#">Gallery</a></li>
+          <li class=""><a href="#">Contact Us</a></li>
+        </ul>
       </div>
     </div>
   </div>
+
   <!-- Modal -->
 
   <div class="modal fade" id="action-two" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
