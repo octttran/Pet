@@ -1,0 +1,174 @@
+body {
+  padding-top: 70px;
+  
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  padding-bottom: 15px;
+  
+}
+
+ul, li {
+  margin-top: 20px;
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 20px;
+  color: #eaeaea;
+}
+
+form {
+  margin-bottom: 25px;
+
+}
+
+i {
+  margin-right: 25px;
+}
+
+.carousel-img {
+  max-height: 100px;
+}
+
+.jumbotron {
+  max-height: 445px;
+
+}
+
+.img-hover {
+  position: relative;
+  
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0,0,0, 0.7);
+
+}
+
+.navbar-text > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navbar-brand {
+
+  position: absolute;
+  float: left;
+  font-size: 36px;
+  margin-top: 10px;
+  color: #d9f4ff;
+}
+
+
+.thumbnail img:hover {
+  transform: scale(1.1);
+
+}
+
+.thumbnail img {
+  transition: all 0.3s ease 0s;
+  width: 100%;
+
+}
+
+.thumbnail {
+  overflow: hidden;
+}
+
+.thumbnail > p {
+  padding-bottom: 50px;
+
+}
+
+#action-one-button {
+  margin-top: 35px;
+  margin-left: 170px;
+
+
+}
+
+#input-email {
+  
+}
+
+#mobile {
+  
+}
+
+#password {
+  
+}
+
+#password-two {
+  
+}
+
+#register {
+  width: 40%;
+  border-radius: 25px;
+}
+
+#background-two {
+  height: 550px;
+  background-color: ;
+}
+
+#carousel-frame {
+  background-color: #92b3bf;
+}
+
+#main-title {
+  position: absolute;
+  left: 35px;
+}
+
+#age-box {
+  font-size: 16px;
+}
+
+
+#pet-connect {
+  font-size: 28px;
+}
+
+#rocky-jimbo {
+  font-size: 22px;
+}
+
+#testimonial {
+  font-size: 18px;
+}
+
+#carousel {
+  font-size: 24px
+}
+
+
+/* Color for CSS
+
+Light Grey: #eaeaea;
+Clear light blue: #d9f4ff;
+Sky blue: #a3e6ff;
+Light Blue: #81d4f4;
+Grey Blue: #92b3bf;
+Dark Grey Blue: #556e77;
+
+*/
+
+
+
+

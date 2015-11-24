@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head><title></title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans'>
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans'>
+</head>
+<body>
+  <!--Nav Bar Section Below -->
+
+  <div class="container">
+    <div class="navbar navbar-inverse navbar-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">PetsHangOut</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class=""><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Member<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#action-two" data-toggle="modal">Log-in</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+          </li>
+          <li class=""><a href="#">Availability</a></li>
+          <li class=""><a href="gallery.html">Gallery</a></li>
+          <li class=""><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+
+  <div class="modal fade" id="action-two" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">All Pet All day</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <div>
+                <label for="name-title" class="col-md-1 control-label">USERNAME</label>
+                <div class="col-md-6 col-md-offset-1">
+                  <input type="name" class="form-control" id="name-title" placeholder="">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div>
+                <label for="name-title" class="col-md-1 control-label">PASSWORD</label>
+                <div class="col-md-6 col-md-offset-1">
+                  <input type="name" class="form-control" id="name-title" placeholder="">
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Log-in</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<!-- Nav Bar Section Above -->
+<div class="container">
+  <div class="row" id="">
+    <div class="col-md-12 col-sm-12">
+      <img class="center-block" src="image/sign-up.png">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h1>Sign-up and Find a Buddy today!</h1>
+      <br><br>
+    </div>
+  </div>
+  <form class="form-horizontal">
+    <div class="form-group">
+      <label for="inputUsername" class="col-md-4 control-label">Username</label>
+      <div class="col-md-5">
+        <input type="name" class="form-control" id="username" placeholder="">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputPetname" class="col-md-4 control-label">Pet's Name</label>
+      <div class="col-md-5">
+        <input type="name" class="form-control" id="pet-name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputEmail" class="col-md-4 control-label">Email</label>
+      <div class="col-md-5">
+        <input type="email" class="form-control" id="input-email" placeholder="">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputEmail" class="col-md-4 control-label">Mobile # (Optional)</label>
+      <div class="col-md-5">
+        <input type="email" class="form-control" id="mobile" placeholder="">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputPassword" class="col-md-4 control-label">Password</label>
+      <div class="col-md-5">
+        <input type="password" class="form-control" id="password" placeholder="">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputEmail" class="col-md-4 control-label">Re-enter Password</label>
+      <div class="col-md-5">
+        <input type="email" class="form-control" id="password-two" placeholder="">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputlocation" class="col-md-4 control-label">Location</label>
+      <div class="col-md-5">
+        <input type="email" class="form-control" id="location" placeholder="nearest city">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputEmail" class="col-md-4 control-label">Pet's Gender</label>
+      <div class="col-md-5">
+        <div class="male">
+          <input id="male" type="radio" name="gender" value="m">
+          <label for="male">Male</label>
+        </div>
+        <div class="female">
+          <input id="female" type="radio" name="gender" value="f">
+          <label for="female">Female</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputage" class="col-md-4 control-label">AGE</label>
+      <div class="col-md-5">
+        <select name="age" id="age-box">
+          <option value="one">1</option>
+          <option value="one">2</option>
+          <option value="one">3</option>
+          <option value="one">4</option>
+          <option value="one">5</option>
+          <option value="one">6</option>
+          <option value="one">7</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-md-6 col-md-offset-5">
+        <button type="submit" class="btn btn-primary" id="">Register</button>
+      </div>
+    </div>
+  </form>
+</div>
+</div>
+</body>
+</html>
