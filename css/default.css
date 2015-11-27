@@ -38,7 +38,7 @@ i {
 }
 
 .jumbotron {
-  max-height: 445px;
+  max-height: 450px;
 
 }
 
@@ -103,6 +103,7 @@ i {
   padding-top: 15px;
 }
 
+
 #action-one-button {
   margin-top: 25px;
   margin-left: 140px;
@@ -136,10 +137,6 @@ i {
   background-color: ;
 }
 
-#carousel-frame {
-  background-color: #92b3bf;
-}
-
 #main-title {
   position: absolute;
   left: 35px;
@@ -159,24 +156,40 @@ i {
 }
 
 #jimbo {
-  font-size: 16px;
+  font-size: 24px;
 }
 
 #testimonial {
   font-size: 18px;
 }
 
-#carousel {
-  font-size: 24px
+#blank-carousel {
+  height: 30px;
 }
+
 
 #nav-brand {
   color: #81d4f4;
 }
 
-#gallery-head {
+#profile-panel {
+  position: fixed;
+  max-width: 250px;
+}
+
+#footer-note {
+  color: #81d4f4;
+}
+
+.bg-blue {
   background-color: #81d4f4;
 }
+
+.bg-light {
+  background-color: #d9f4ff;
+}
+
+
 
 
 
