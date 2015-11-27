@@ -99,6 +99,10 @@ i {
 
 }
 
+.gallery-one {
+  padding-top: 15px;
+}
+
 #action-one-button {
   margin-top: 25px;
   margin-left: 140px;
@@ -168,6 +172,10 @@ i {
 
 #nav-brand {
   color: #81d4f4;
+}
+
+#gallery-head {
+  background-color: #81d4f4;
 }
 
 
