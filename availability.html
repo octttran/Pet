@@ -46,7 +46,12 @@
   <!-- Table -->
   <div class="container">
     <div class="col-md-12 bg-blue">
+      <div class="col-md-10">
       <h2>Find your local HangOut here!</h2>
+    </div>
+    <div class="col-md-2">
+      <a type="button" class="btn btn-primary pull-right" href="#action-three" data-toggle="modal">Add Hangout</a>
+    </div>
     </div>
     <div class="availability">
     <div class="col-md-12">
@@ -203,6 +208,43 @@
       </table>
     </div>
   </div>
+  </div>
+
+  <!-- Modal  -->
+
+  <div class="modal fade" id="action-three" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-blue">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h2 class="modal-title" id="myModalLabel">All Pet All day</h2>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <div>
+                <label for="name-title" class="col-md-1 control-label">USERNAME</label>
+                <div class="col-md-6 col-md-offset-1">
+                  <input type="name" class="form-control" id="name-title" placeholder="">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div>
+                <label for="name-title" class="col-md-1 control-label">PASSWORD</label>
+                <div class="col-md-6 col-md-offset-1">
+                  <input type="name" class="form-control" id="name-title" placeholder="">
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Log-in</button>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
