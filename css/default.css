@@ -87,6 +87,17 @@ i {
 .thumbnail img {
   transition: all 0.3s ease 0s;
   width: 100%;
+}
+
+.gallery-one .thumbnail img:hover {
+  transform: scale(1.1);
+}
+
+.gallery-one .thumbnail img {
+  width: 166px;
+  height: 124px;
+  transition: all 0.3s ease 0s;
+  
 
 }
 
@@ -111,20 +122,8 @@ i {
 
 }
 
-#input-email {
-  
-}
-
-#mobile {
-  
-}
-
-#password {
-  
-}
-
-#password-two {
-  
+#hangout-btn {
+  margin-top: 15px;
 }
 
 #register {

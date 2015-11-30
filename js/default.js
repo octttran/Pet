@@ -6,8 +6,8 @@ $(document).ready(function() {
      $('#sidebar-img').attr('src', imageSrc)
 
      var name = $(this).next('h5');
-     var membername = name.html();
-     $('#displayName').html(membername);
+     var memberName = name.html();
+     $('#displayName').html(memberName);
   })
 
 })
