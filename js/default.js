@@ -2,6 +2,7 @@ $(document).ready(function() {
 
   // Hide the member Description
   $('.member-description').hide();
+  $('.member-location').hide();
 
 
   $('.gallery-one').click(function(){
@@ -13,9 +14,13 @@ $(document).ready(function() {
      var memberName = name.html();
      $('#displayName').html(memberName)
 
-     var location = $(this).find('h6');
+     var location = $(this).siblings('h6');
      var memberLocation = location.html();
-     $('#displayLocation').show(memberLocation);
+     $('#displayLocation').html(memberLocation);
+
+     var description = $(this).siblings('p');
+     var memberDescription = description.html();
+     $('#displayDescription').html(memberDescription);
 
      
 
