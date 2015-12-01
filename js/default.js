@@ -1,16 +1,25 @@
 $(document).ready(function() {
 
-  $('.gallery-one').on('click', function(){
+  // Hide the member Description
+  $('.member-description').hide();
+
+
+  $('.gallery-one').click(function(){
      var image = $(this).find('img');
      var imageSrc = image.attr('src')
-     $('#sidebar-img').attr('src', imageSrc)
+     $('#sidebar-img').attr('src', imageSrc);
 
      var name = $(this).next('h5');
      var memberName = name.html();
-     $('#displayName').html(memberName);
+     $('#displayName').html(memberName)
+
+     var location = $(this).find('h6');
+     var memberLocation = location.html();
+     $('#displayLocation').show(memberLocation);
+
+     
+
   })
 
 })
 
-// .next('h5')
-//.html([the name variable you want here])
