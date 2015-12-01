@@ -117,7 +117,7 @@ i {
 
 #action-one-button {
   margin-top: 25px;
-  margin-left: 140px;
+  margin-left: 150px;
 
 
 }
@@ -173,7 +173,8 @@ i {
 
 #profile-panel {
   position: fixed;
-  max-width: 250px;
+  width: 250px;
+  height: 410px;
 }
 
 #footer-note {
