@@ -37,9 +37,22 @@ i {
   max-height: 100px;
 }
 
+.carousel-inner {
+  margin-top: -25px;
+  margin-bottom: 10px;
+}
+
+.carousel-member {
+  margin-top: -5px;
+}
+
 .jumbotron {
   max-height: 450px;
 
+}
+
+.intro {
+  margin-top: -15px;
 }
 
 .img-hover {

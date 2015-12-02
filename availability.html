@@ -4,6 +4,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script type="text/javascript" src="js/default.js"></script>
   <link rel="stylesheet" href="css/default.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans'>
@@ -13,7 +14,6 @@
 <body>
 
   <!-- Navbar -->
-
   <div class="container">
     <div class="navbar navbar-inverse navbar-top" role="navigation">
       <div class="navbar-header">
@@ -35,154 +35,251 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Member<b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="#action-two" data-toggle="modal">Log-in</a></li>
-              <li><a href="sign-up.html">Sign-up</a></li>
+              <li><a href="#" class="action-one-button">Sign-up</a></li>
             </ul>
           </li>
         </ul>
       </div>
     </div>
   </div>
+  <!-- End Navbar -->
+
+  <!-- Sign Up Form -->
+  <div class="container">
+    <div class="registration">
+      <div class="row" id="">
+        <div class="col-md-12">
+          <img class="center-block img-responsive" src="image/sign-up.png">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1>Sign-up and Find a Buddy today!</h1>
+          <br><br>
+        </div>
+      </div>
+      <form class="form-horizontal">
+        <div class="form-group">
+          <label for="inputUsername" class="col-md-4 control-label">Username</label>
+          <div class="col-md-5">
+            <input type="name" class="form-control" id="username" placeholder="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputPetname" class="col-md-4 control-label">Pet's Name</label>
+          <div class="col-md-5">
+            <input type="name" class="form-control" id="pet-name">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputEmail" class="col-md-4 control-label">Email</label>
+          <div class="col-md-5">
+            <input type="email" class="form-control" id="input-email" placeholder="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputEmail" class="col-md-4 control-label">Mobile # (Optional)</label>
+          <div class="col-md-5">
+            <input type="email" class="form-control" id="mobile" placeholder="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputPassword" class="col-md-4 control-label">Password</label>
+          <div class="col-md-5">
+            <input type="password" class="form-control" id="password" placeholder="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputEmail" class="col-md-4 control-label">Re-enter Password</label>
+          <div class="col-md-5">
+            <input type="email" class="form-control" id="password-two" placeholder="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputlocation" class="col-md-4 control-label">Location</label>
+          <div class="col-md-5">
+            <input type="email" class="form-control" id="location" placeholder="nearest city">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputEmail" class="col-md-4 control-label">Pet's Gender</label>
+          <div class="col-md-5">
+            <div class="male">
+              <input id="male" type="radio" name="gender" value="m">
+              <label for="male">Male</label>
+            </div>
+            <div class="female">
+              <input id="female" type="radio" name="gender" value="f">
+              <label for="female">Female</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputage" class="col-md-4 control-label">AGE</label>
+          <div class="col-md-5">
+            <select name="age" id="age-box">
+              <option value="one">1</option>
+              <option value="one">2</option>
+              <option value="one">3</option>
+              <option value="one">4</option>
+              <option value="one">5</option>
+              <option value="one">6</option>
+              <option value="one">7</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-primary center-block" id="">Register</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- End of Sign Up form -->
 
   <!-- Table -->
-  <div class="container">
-    <div class="col-md-12 bg-blue">
-      <div class="col-md-10">
-        <h2>Find your local HangOut here!</h2>
+  <div class="homepage">
+    <div class="container">
+      <div class="col-md-12 bg-blue">
+        <div class="col-md-10">
+          <h2>Find your local HangOut here!</h2>
+        </div>
+        <div class="col-md-2">
+          <a type="button" class="btn btn-primary pull-right" id="hangout-btn" href="#action-three" data-toggle="modal">Add Hangout</a>
+        </div>
       </div>
-      <div class="col-md-2">
-        <a type="button" class="btn btn-primary pull-right" id="hangout-btn" href="#action-three" data-toggle="modal">Add Hangout</a>
-      </div>
-    </div>
-    <div class="availability">
-      <div class="col-md-12">
-        <table class="table table-bordered table-striped">
-          <thead>
-            <tr>
-              <br><br>
-              <th></th>
-              <th>Participants</th>
-              <th>HangOut Date</th>
-              <th>HangOut Time</th>
-              <th>HangOut Type</th>
-              <th>HangOut Length</th>
-              <th>Prefer Location (specify city, zip, nearest park, etc..)</th>
-              <th>Prefer Contact</th>
-              <th>Additional Planning & Notes</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Member #1</td>
-              <td>1/1/2016</td>
-              <td>1pm</td>
-              <td>Others</td>
-              <td>30 Mins</td>
-              <td>Costa Mesa</td>
-              <td>Text</td>
-              <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Member #2</td>
-              <td>1/2/2016</td>
-              <td>2pm</td>
-              <td>Others</td>
-              <td>30 Mins</td>
-              <td>Huntington Beach</td>
-              <td>Text</td>
-              <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Member #3</td>
-              <td>1/3/2016</td>
-              <td>3pm</td>
-              <td>Others</td>
-              <td>30 Mins</td>
-              <td>Garden Grove</td>
-              <td>Text</td>
-              <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>Member #4</td>
-              <td>1/4/2016</td>
-              <td>4pm</td>
-              <td>Others</td>
-              <td>30 Mins</td>
-              <td>Westminster</td>
-              <td>Text</td>
-              <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>Member #5</td>
-              <td>1/5/2016</td>
-              <td>5pm</td>
-              <td>Others</td>
-              <td>30 Mins</td>
-              <td>Long Beach</td>
-              <td>Text</td>
-              <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
-            </tr>
-            <tr>
-              <td>6</td>
-              <td>Member #1</td>
-              <td>1/1/2016</td>
-              <td>1pm</td>
-              <td>Others</td>
-              <td>30 Mins</td>
-              <td>Costa Mesa</td>
-              <td>Text</td>
-              <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
-            </tr>
-            <tr>
-              <td>7</td>
-              <td>Member #2</td>
-              <td>1/2/2016</td>
-              <td>2pm</td>
-              <td>Others</td>
-              <td>30 Mins</td>
-              <td>Huntington Beach</td>
-              <td>Text</td>
-              <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
-            </tr>
-            <tr>
-              <td>8</td>
-              <td>Member #3</td>
-              <td>1/3/2016</td>
-              <td>3pm</td>
-              <td>Others</td>
-              <td>30 Mins</td>
-              <td>Garden Grove</td>
-              <td>Text</td>
-              <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
-            </tr>
-            <tr>
-              <td>9</td>
-              <td>Member #4</td>
-              <td>1/4/2016</td>
-              <td>4pm</td>
-              <td>Others</td>
-              <td>30 Mins</td>
-              <td>Westminster</td>
-              <td>Text</td>
-              <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
-            </tr>
-            <tr>
-              <td>10</td>
-              <td>Member #5</td>
-              <td>1/5/2016</td>
-              <td>5pm</td>
-              <td>Others</td>
-              <td>30 Mins</td>
-              <td>Long Beach</td>
-              <td>Text</td>
-              <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="availability">
+        <div class="col-md-12">
+          <table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <br><br>
+                <th></th>
+                <th>Participants</th>
+                <th>HangOut Date</th>
+                <th>HangOut Time</th>
+                <th>HangOut Type</th>
+                <th>HangOut Length</th>
+                <th>Prefer Location (specify city, zip, nearest park, etc..)</th>
+                <th>Prefer Contact</th>
+                <th>Additional Planning & Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Member #1</td>
+                <td>1/1/2016</td>
+                <td>1pm</td>
+                <td>Others</td>
+                <td>30 Mins</td>
+                <td>Costa Mesa</td>
+                <td>Text</td>
+                <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Member #2</td>
+                <td>1/2/2016</td>
+                <td>2pm</td>
+                <td>Others</td>
+                <td>30 Mins</td>
+                <td>Huntington Beach</td>
+                <td>Text</td>
+                <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Member #3</td>
+                <td>1/3/2016</td>
+                <td>3pm</td>
+                <td>Others</td>
+                <td>30 Mins</td>
+                <td>Garden Grove</td>
+                <td>Text</td>
+                <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Member #4</td>
+                <td>1/4/2016</td>
+                <td>4pm</td>
+                <td>Others</td>
+                <td>30 Mins</td>
+                <td>Westminster</td>
+                <td>Text</td>
+                <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Member #5</td>
+                <td>1/5/2016</td>
+                <td>5pm</td>
+                <td>Others</td>
+                <td>30 Mins</td>
+                <td>Long Beach</td>
+                <td>Text</td>
+                <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Member #1</td>
+                <td>1/1/2016</td>
+                <td>1pm</td>
+                <td>Others</td>
+                <td>30 Mins</td>
+                <td>Costa Mesa</td>
+                <td>Text</td>
+                <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Member #2</td>
+                <td>1/2/2016</td>
+                <td>2pm</td>
+                <td>Others</td>
+                <td>30 Mins</td>
+                <td>Huntington Beach</td>
+                <td>Text</td>
+                <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Member #3</td>
+                <td>1/3/2016</td>
+                <td>3pm</td>
+                <td>Others</td>
+                <td>30 Mins</td>
+                <td>Garden Grove</td>
+                <td>Text</td>
+                <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>Member #4</td>
+                <td>1/4/2016</td>
+                <td>4pm</td>
+                <td>Others</td>
+                <td>30 Mins</td>
+                <td>Westminster</td>
+                <td>Text</td>
+                <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>Member #5</td>
+                <td>1/5/2016</td>
+                <td>5pm</td>
+                <td>Others</td>
+                <td>30 Mins</td>
+                <td>Long Beach</td>
+                <td>Text</td>
+                <td>Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>
@@ -305,9 +402,9 @@
             <button type="button" class="btn btn-primary">Send</button>
           </div>
         </form>
-        </div>
       </div>
     </div>
+  </div>
   <!-- End Modal Contact -->
-  </body>
-  </html>
+</body>
+</html>

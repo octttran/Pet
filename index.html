@@ -4,6 +4,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script type="text/javascript" src="js/default.js"></script>
   <link rel="stylesheet" href="css/default.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans'>
@@ -34,140 +35,244 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Member<b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="#action-two" data-toggle="modal">Log-in</a></li>
-              <li><a href="sign-up.html">Sign-up</a></li>
+              <li><a href="#" class="action-one-button">Sign-up</a></li>
             </ul>
           </li>
         </ul>
       </div>
     </div>
   </div>
+  <!--End of Navbar -->
 
-  <!-- JumboTron -->
-
+  <!-- Sign Up Form -->
   <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="img-hover">
-          <img class="img-responsive" src="image/petplay-one.png">
-          <div class="caption">
-            Let's play!
-          </div>
+    <div class="registration">
+      <div class="row" id="">
+        <div class="col-md-12">
+          <img class="center-block img-responsive" src="image/sign-up.png">
         </div>
       </div>
-      <div class="col-md-6">
-        <div class="jumbotron bg-light">
-          <div class="sign-up">
-            <h1 id="sign-today">Sign up Today</h1><br>
-            <h3 id="local">to be connected to local pets nearby!</h3><br>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1>Sign-up and Find a Buddy today!</h1>
+          <br><br>
+        </div>
+      </div>
+      <form class="form-horizontal">
+        <div class="form-group">
+          <label for="inputUsername" class="col-md-4 control-label">Username</label>
+          <div class="col-md-5">
+            <input type="name" class="form-control" id="username" placeholder="">
           </div>
-          <div class="block-quote">
-            <p class="text-center" id="jimbo"><em>"Hanging out with Rocky was the best thing I've ever sign up for my furry friend Jimbo"</em></p>
-            <footer class="text-center" id="testimonial">-Tan T Tran, Orange County CA</footer>
+        </div>
+        <div class="form-group">
+          <label for="inputPetname" class="col-md-4 control-label">Pet's Name</label>
+          <div class="col-md-5">
+            <input type="name" class="form-control" id="pet-name">
           </div>
-          <div class="button-one">
-            <a href="sign-up.html" class="btn btn-primary" id="action-one-button">Sign-up</a>
+        </div>
+        <div class="form-group">
+          <label for="inputEmail" class="col-md-4 control-label">Email</label>
+          <div class="col-md-5">
+            <input type="email" class="form-control" id="input-email" placeholder="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputEmail" class="col-md-4 control-label">Mobile # (Optional)</label>
+          <div class="col-md-5">
+            <input type="email" class="form-control" id="mobile" placeholder="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputPassword" class="col-md-4 control-label">Password</label>
+          <div class="col-md-5">
+            <input type="password" class="form-control" id="password" placeholder="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputEmail" class="col-md-4 control-label">Re-enter Password</label>
+          <div class="col-md-5">
+            <input type="email" class="form-control" id="password-two" placeholder="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputlocation" class="col-md-4 control-label">Location</label>
+          <div class="col-md-5">
+            <input type="email" class="form-control" id="location" placeholder="nearest city">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputEmail" class="col-md-4 control-label">Pet's Gender</label>
+          <div class="col-md-5">
+            <div class="male">
+              <input id="male" type="radio" name="gender" value="m">
+              <label for="male">Male</label>
+            </div>
+            <div class="female">
+              <input id="female" type="radio" name="gender" value="f">
+              <label for="female">Female</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputage" class="col-md-4 control-label">AGE</label>
+          <div class="col-md-5">
+            <select name="age" id="age-box">
+              <option value="one">1</option>
+              <option value="one">2</option>
+              <option value="one">3</option>
+              <option value="one">4</option>
+              <option value="one">5</option>
+              <option value="one">6</option>
+              <option value="one">7</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-primary center-block" id="">Register</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- End of Sign Up form -->
+
+  <!-- JumboTron -->
+  <div class="homepage">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img-hover">
+            <img class="img-responsive" src="image/petplay-one.png">
+            <div class="caption">
+              Let's play!
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="jumbotron bg-light">
+            <div class="sign-up">
+              <h1 id="sign-today">Sign up Today</h1><br>
+              <h3 id="local">to be connected to local pets nearby!</h3><br>
+            </div>
+            <div class="block-quote">
+              <p class="text-center" id="jimbo"><em>"Hanging out with Rocky was the best thing I've ever sign up for my furry friend Jimbo"</em></p>
+              <footer class="text-center" id="testimonial">-Tan T Tran, Orange County CA</footer><br><br>
+            </div>
+            <div class="button-one">
+              <button class="action-one-button btn btn-primary center-block" id="">Sign-up</a></button>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- End of Jumbotron -->
 
   <!-- Carousel -->
+  <div class="homepage">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="bg-light">
+            <h2 class="carousel-member">Meet our hang out members below...</h2><br>
+            <div class="carousel slide" data-ride="carousel" data-interval="3000">
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h2 class="bg-light">Meet our hang out members below...</h2><br>
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+              </ol>
 
-        <div class="carousel slide" data-ride="carousel" data-interval="3000">
-
-          <!-- Indicators -->
-
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-
-          <div class="carousel-inner">
-            <div class="item active">
-              <div class="row">
-                <div class="col-md-2 col-md-offset-2 col-sm-12">
-                  <img class="carousel-img img-responsive" src="image/petplay-six.png" alt="example-three">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="row">
+                    <div class="col-md-2 col-md-offset-2 col-sm-12">
+                      <img class="carousel-img img-responsive" src="image/petplay-six.png" alt="example-three">
+                    </div>
+                    <div class="col-md-2 col-sm-12">
+                      <img class="carousel-img img-responsive" src="image/petplay-six.png" alt="example-three">
+                    </div>
+                    <div class="col-md-2 col-sm-12">
+                      <img class="carousel-img img-responsive" src="image/petplay-six.png" alt="example-three">
+                    </div>
+                    <div class="col-md-2 col-sm-12">
+                      <img class="carousel-img img-responsive" src="image/petplay-six.png" alt="example-three">
+                    </div>                         
+                  </div>
                 </div>
-                <div class="col-md-2 col-sm-12">
-                  <img class="carousel-img img-responsive" src="image/petplay-six.png" alt="example-three">
+                <div class="item">
+                  <div class="row">
+                    <div class="col-md-2 col-md-offset-2">
+                      <img class="carousel-img img-responsive" src="image/petplay-six.png" alt="example-three">
+                    </div>
+                    <div class="col-md-2">
+                      <img class="carousel-img img-responsive" src="image/petplay-six.png" alt="example-three">
+                    </div>
+                    <div class="col-md-2">
+                      <img class="carousel-img img-responsive" src="image/petplay-six.png" alt="example-three">
+                    </div>
+                    <div class="col-md-2">
+                      <img class="carousel-img img-responsive" src="image/petplay-six.png" alt="example-three">
+                    </div>          
+                    <div class="carousel-caption">
+                    </div>
+                  </div>
                 </div>
-                <div class="col-md-2 col-sm-12">
-                  <img class="carousel-img img-responsive" src="image/petplay-six.png" alt="example-three">
-                </div>
-                <div class="col-md-2 col-sm-12">
-                  <img class="carousel-img img-responsive" src="image/petplay-six.png" alt="example-three">
-                </div>                         
               </div>
-            </div>
-            <div class="item">
-              <div class="row">
-                <div class="col-md-2 col-md-offset-2">
-                  <img class="carousel-img img-responsive" src="image/petplay-six.png" alt="example-three">
-                </div>
-                <div class="col-md-2">
-                  <img class="carousel-img img-responsive" src="image/petplay-six.png" alt="example-three">
-                </div>
-                <div class="col-md-2">
-                  <img class="carousel-img img-responsive" src="image/petplay-six.png" alt="example-three">
-                </div>
-                <div class="col-md-2">
-                  <img class="carousel-img img-responsive" src="image/petplay-six.png" alt="example-three">
-                </div>          
-                <div class="carousel-caption">
-                </div>
-              </div>
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>         
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              </a>
+            </div><br>
+            <div class='col-md-12'>
             </div>
           </div>
-          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>         
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          </a>
-        </div><br>
-        <div class="col-md-12 bg-light" id="blank-carousel">
         </div>
       </div>
     </div>
   </div><br><br>
+  <!-- End of Carousel -->
 
   <!-- Intro -->
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <a href="#" class="thumbnail bg-light">
-          <img src="image/petplay-two.jpg" alt="mission theme">
-        </a>
-        <h3>Our Mission</h3>
-        <p class="description">Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id. Et aliquet suscipit condimentum nullam aenean pharetra hendrerit mi non consectetur justo parturient a adipiscing adipiscing luctus nisi dignissim a pulvinar a velit sit senectus semper cum sociosqu nam non.</p>
-      </div>
-      <div class="col-md-4 b">
-        <a href="#" class="thumbnail bg-light">
-          <img src="image/petplay-two.jpg" alt="passion theme">
-        </a>
-        <h3>Our Passion</h3>
-        <p class="">Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id. Et aliquet suscipit condimentum nullam aenean pharetra hendrerit mi non consectetur justo parturient a adipiscing adipiscing luctus nisi dignissim a pulvinar a velit sit senectus semper cum sociosqu nam non.</p>
-      </div>
-      <div class="col-md-4">
-        <a href="#" class="thumbnail bg-light">
-          <img src="image/petplay-two.jpg" alt="goal theme">
-        </a>
-        <h3>Our Goals</h3>
-        <p class="bg-">Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id. Et aliquet suscipit condimentum nullam aenean pharetra hendrerit mi non consectetur justo parturient a adipiscing adipiscing luctus nisi dignissim a pulvinar a velit sit senectus semper cum sociosqu nam non.</p>
+  <div class="homepage">
+    <div class="container">
+      <div class="row">
+        <div class="intro">
+          <div class="col-md-4">
+            <a href="#" class="thumbnail bg-light">
+              <img src="image/petplay-two.jpg" alt="mission theme">
+            </a>
+            <h3>Our Mission</h3>
+            <p class="description">Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id. Et aliquet suscipit condimentum nullam aenean pharetra hendrerit mi non consectetur justo parturient a adipiscing adipiscing luctus nisi dignissim a pulvinar a velit sit senectus semper cum sociosqu nam non.</p>
+          </div>
+          <div class="col-md-4 b">
+            <a href="#" class="thumbnail bg-light">
+              <img src="image/petplay-two.jpg" alt="passion theme">
+            </a>
+            <h3>Our Passion</h3>
+            <p class="">Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id. Et aliquet suscipit condimentum nullam aenean pharetra hendrerit mi non consectetur justo parturient a adipiscing adipiscing luctus nisi dignissim a pulvinar a velit sit senectus semper cum sociosqu nam non.</p>
+          </div>
+          <div class="col-md-4">
+            <a href="#" class="thumbnail bg-light">
+              <img src="image/petplay-two.jpg" alt="goal theme">
+            </a>
+            <h3>Our Goals</h3>
+            <p class="bg-">Ullamcorper curabitur consectetur tempor molestie amet a egestas ipsum in a netus suspendisse pharetra id. Et aliquet suscipit condimentum nullam aenean pharetra hendrerit mi non consectetur justo parturient a adipiscing adipiscing luctus nisi dignissim a pulvinar a velit sit senectus semper cum sociosqu nam non.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+  <!--End of Intro -->
+
+  
 
   <!-- Footer -->
   <div class="container">
@@ -184,7 +289,6 @@
   </div>
 
   <!-- Modal Log-in -->
-
   <div class="modal fade" id="action-two" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -222,7 +326,6 @@
   <!--Modal End -->
 
   <!-- Contact Modal -->
-
   <div class="modal fade" id="contact" tabindex="" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -258,9 +361,7 @@
       </div>
     </div>
   </div>
-
-
-  <!-- Modal End -->
+  <!-- Modal Contact End -->
 
 </body>
 </html>
