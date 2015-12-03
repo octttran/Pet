@@ -4,7 +4,6 @@ $(document).ready(function() {
   $('.member-description').hide();
   $('.member-location').hide();
   $('.registration').hide();
-  $('.homepage').hide;
 
   // Show image click on sidebar image box
   $('.gallery-one').click(function(){
