@@ -127,6 +127,11 @@ i {
   padding-top: 15px;
 }
 
+.button-default {
+  color: white;
+  width:100px;
+}
+
 
 #action-one-button {
   margin-top: 25px;
@@ -142,6 +147,10 @@ i {
 #register {
   width: 40%;
   border-radius: 25px;
+}
+
+#feature {
+  margin-top: 10px;
 }
 
 #background-two {
