@@ -86,8 +86,6 @@ i {
 
 .navbar-brand {
 
-  position: absolute;
-  float: left;
   font-size: 36px;
   margin-top: 10px;
   
@@ -188,11 +186,6 @@ i {
 
 #blank-carousel {
   height: 30px;
-}
-
-
-#nav-brand {
-  color: #81d4f4;
 }
 
 #profile-panel {
