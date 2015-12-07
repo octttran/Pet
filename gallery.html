@@ -31,13 +31,6 @@
           <li class=""><a href="availability.html">HangOut</a></li>
           <li class="active"><a href="gallery.html">Gallery</a></li>
           <li class=""><a href="#contact" data-toggle="modal">Contact Us</a></li>
-          <!-- <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Member<b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#action-two" data-toggle="modal">Log-in</a></li>
-              <li><a href="#" class="action-one-button">Sign-up</a></li>
-            </ul>
-          </li> -->
         </ul>
       </div>
     </div>
@@ -142,7 +135,12 @@
   <div class="homepage">
     <div class="container">
       <div class="col-md-12 bg-blue">
-        <h2>Welcome to the HangOut Gallery</h2>
+        <div class="col-md-10">
+          <h2>Welcome to the HangOut Gallery</h2>
+        </div>
+        <div class="col-md-2">
+          <a type="button" class="btn btn-primary pull-right" id="hangout-btn" href="#action-three" data-toggle="modal">Add Gallery</a>
+        </div>
       </div>
       <div class="gallery">
         <div class="row">
@@ -412,6 +410,42 @@
       </div>
     </div>
   </div>
+  <!-- Modal HangOut -->
+
+  <div class="modal fade" id="action-three" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-blue">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h2 class="modal-title" id="myModalLabel">All Pet All day</h2>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <div class="col-md-12">
+                <h4>Pet's Name</h4>
+                <input type="name" class="form-control" id="name-title" placeholder="Pet's Name">
+              </div>
+              <div class="col-md-12">
+                <h4>Locations</h4>
+                <input type="name" class="form-control" id="name-title" placeholder="specifiy city, zip, nearest park, etc..">
+              </div>              
+              <div class="col-md-12">
+                <h5>Description</h5>
+                <input type="name" class="form-control" id="name-title" placeholder="Description here">
+              </div>  
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--End Modal HangOut -->
 
   <!--Modal Contact -->
   <div class="modal fade" id="contact" tabindex="" role="dialog">
