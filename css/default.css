@@ -34,7 +34,12 @@ i {
 }
 
 /*.carousel-img {
-  max-height: 100px;
+  width: 1200px;
+  height: 315px;
+}*/
+
+.carousel-text {
+  color: white;
 }
 
 .carousel-inner {
@@ -42,9 +47,6 @@ i {
   margin-bottom: 10px;
 }
 
-.carousel-member {
-  margin-top: -5px;
-}*/
 
 /*.jumbotron {
   max-height: 450px;*/
