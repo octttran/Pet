@@ -129,7 +129,15 @@ i {
 
 .button-default {
   color: white;
-  width:100px;
+  width:125px;
+}
+
+#sign-up {
+  margin-top: 35px;
+}
+
+#button-one {
+  margin-top: 65px;
 }
 
 
@@ -151,6 +159,10 @@ i {
 
 #feature {
   margin-top: 10px;
+}
+
+#sign-today {
+  margin-top: -12px;
 }
 
 #background-two {
